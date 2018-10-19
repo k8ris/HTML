@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dropdown and multiselect list</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <p>year of birth:</p>
+        <select name="date">
+            <option value="05.09.1984">05.09.1984</option>
+            <option value="05.09.1983">05.09.1983</option>
+            <option value="05.09.1982" selected>05.09.1982</option>
+        </select>
+    </form>
+
+    <form action="" method="GET">
+        <p>what do you want for breakfast?</p>
+        <select name="food[]" size="2" multiple='multiple'>
+            <option value="jam">jam</option>
+            <option value="butter">butter</option>
+            <option value="tea">tea</option>
+        </select>
+    </form>
+</body>
+</html>
